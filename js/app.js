@@ -8,6 +8,7 @@ var thatThing = document.querySelector(".ask-question");
 var box = document.querySelector(".text-area");
 var currentValue = "Enter text";
 var getEm = document.querySelector(".output");
+var workWork = document.querySelector(".square");
 var answers = ["It is certain", 
               "Only time will tell",
               "cannot confirm or deny",
@@ -37,7 +38,9 @@ function shakeSomething() {
 }
 
 function makeNew() {
-    document.querySelector(".popUp").innerHTML = "Magic 8 Shake Shake"
+    document.querySelector(".popUp").innerHTML = "Shake"
+    document.querySelector(".popUp2").innerHTML = "Shake"
+
 }
 
 
