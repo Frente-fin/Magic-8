@@ -24,8 +24,8 @@ function changeColor() { // Changes background of sphere
 function returnAnswers() { // returns a random index from the answers array, prints return value to square and output divs on page
     var randomAnswers = answers[Math.floor(Math.random() * answers.length)];
     console.log(randomAnswers);
-    var yourFortune = document.querySelector(".output");
-    yourFortune.innerHTML = randomAnswers;
+//    var yourFortune = document.querySelector(".output");
+//    yourFortune.innerHTML = randomAnswers;
     document.querySelector(".square").innerHTML = randomAnswers;
 
 }
